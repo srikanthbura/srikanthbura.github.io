@@ -1,0 +1,18 @@
+#paragraph-1{
+	color:green;
+	}
+#paragraph-2{
+	text-decoration:underline;
+	}
+.paragraph_1{
+	color:blue;
+	}
+[name='abcd']{
+	color:pink;
+	}
+button:hover{
+	color:orange;
+	}
+.testing-box{
+	padding:20px;
+	}
