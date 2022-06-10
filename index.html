@@ -1,30 +1,65 @@
 <html>
-    <head>
-        <title>MyFirstWebPage</title>
-		<link rel="stylesheet" type="text/css" href="my-first stylesheet.css">
-		
-    </head>
-    <body>
-        <h1 name="abcd">This is my first web page.Oh,I am so Excited!!!</h1>
-		<h2>I am learning HTML tags</h2>
-		<p id="paragraph-1" class="paragraph_1">Always a good practise to add opening and closing tags first and then writing content in between them</p>
-		<p id="paragraph-2" class="paragraph_1">What happens when I have two paragraph elements?</P>
-		<span>This is my first span element</span>
-		<span>This is my second span element</span>
-		<div class="testing-box">
-			<p style="color:red" id="paragraph-3" class="paragraph_2">This is my div and it is nested</p>
-		</div>
-		<img src = "IPL logo1.jfif" alt = "ipl logo"/>
-		<a href = "https://www.iplt20.com/" target="blank"> <button>click here</button></a>
-		<ul>
-			<li>Item 1</li>
-			<li>Item 2</li>
-			<li>Item 3</li>
-		</ul>
-		<ol>
-			<li>Item 1</li>
-			<li>Item 2</li>
-			<li>Item 3</li>
-		</ol>
-	</body>
+<head>
+  <title>HTML Form</title>
+  <style>
+		<link rel="stylesheet" type="text/css" href="my-second-stylesheet.css">
+			td{
+				
+				padding:15px;
+			}
+			#Submit{
+				color:white;
+				background-color:blue;
+				padding:15px;
+				border-radius:5px;
+				
+				
+			}
+  </style>
+</head>
+<body>
+
+ <form>
+  <table>
+   <tr>
+    <td><b>Full Name</b></td>
+    <td><input type="text" placeholder="Enter Your Full Name" name=""></td>
+   </tr>
+   <tr>
+    <td><b>Secret Pin</b></td>
+    <td><input type="Sceret Pin" placeholder="Enter Your Secret Pin"name=""></td>
+   </tr>
+   <tr>
+    <td><b>Gender</b></td>
+    <td>
+     <input type="radio" name="Gender"> Male
+     <input type="radio" name="Gender"> Female
+    </td>
+   </tr>
+   <tr>
+    <td><b>I am an expert in</b></td>
+    <td>
+     <input type="checkbox" name="I am an expert in">HTML
+     <input type="checkbox" name="I am expert in">CSS
+    </td>
+   </tr>
+   <tr>
+    <td><b>My field of study is</b></td>
+    <td>
+     <select id="ddselect" >
+      <option>Select your branch using this drop-down select</option>
+     </select>
+    </td>
+	<tr>
+    <td><b>Tell me about yourself</b></td>
+    <td><input type="text" placeholder="This is text area.Enter your description" name=""></td>
+   </tr>
+   </tr>
+   <tr>
+		<td><input type="button" value="Submit Form" id="Submit"></td>
+   </tr>
+  </table>
+ </form>
+
+</body>
 </html>
